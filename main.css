@@ -1,0 +1,946 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #1e0269;
+    /* display: flex;
+    justify-content: center; */
+}
+.container .top{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 10vh;
+    margin-left: 5%;
+}
+.container .navbar .top{
+    display: flex;
+    background-color: #1e0269;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.container .navbar .top .left{
+    position: relative;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.container .navbar .top .left h1{
+    color: #FFFFFF;
+}
+.container .navbar .top .left img{
+    width: 40px;
+    height: 40px;
+    /* align-items: center; */
+    /* position: absolute; */
+}
+.container .navbar .top .left .spot{
+position: absolute;
+top: 20px;
+/* bottom: 0; */
+/* right: 10px; */
+left: 20px;
+width: 25px;
+height: 25px;
+}
+.container .navbar .top .center{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 10vh;
+    background-color: #1e0269;
+    gap: 40px;
+    align-items: center;
+}
+.container .navbar .top .center h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+padding-top: 10px;
+color: #FFFFFF;
+cursor: pointer;
+
+}
+.container .navbar .top .right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.container .navbar .top .right h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.container .navbar .top .right img{
+    width: 30px;
+    height: 40px;
+}
+.container .body{
+    width: 50%;
+    height: 90vh;
+    background-color: #1e0269;
+    margin-left: 90px;
+    display: flex;
+    gap: 150px;
+
+}
+.container .body .left{
+    width: 100%;
+    height: 90vh;
+    margin-top: 50px;
+     
+}
+.container .body .left .big{
+}
+.container .body .left .big h1{
+
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 76px;
+/* or 105% */
+
+
+color: #FFFFFF;
+}
+.container .body .left .big p{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+/* or 155% */
+padding-top: 30px;
+padding-bottom: 60px;
+color: #FFFFFF;
+
+
+}
+.container .body .left .can{
+    width: 150px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.container .body .left .can h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 140% */
+
+text-align: center;
+
+color: #000000;
+}
+.container .body .left .can img{
+    height: 24px;
+left: 67.84%;
+right: 20.1%;
+top: calc(50% - 24px/2);
+}
+.container .body .left .sun{
+    margin-top: 70px;
+    display: flex;
+    width: 600px;
+    height: 60px;
+    background-color: #1e0269;
+    gap: 20px;
+}
+.container .body .left .sun img{
+    height: 64px;
+    left: 0%;
+    right: 89.68%;
+    top: calc(50% - 64px/2);
+    
+    border-radius: 0px;
+}
+.container .body .left .sun h1{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    
+    
+    color: #FFFFFF;
+    
+}
+.container .body .left .sun p{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height, or 149% */
+    
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+.container .body .right img{
+    width: 679px;
+    height: 90vh;
+}
+.container .text{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.container .text .left{
+    width: 25%;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 5%;
+}
+.container .text .left .about img{
+    /* padding-top: 200px; */
+    width: 70px;
+    height: 15px;
+}
+.container .text .left .star{
+    padding-top: 150px;
+    width: 70%;
+   
+}
+.container .text .left .star img{
+    width: 20px;
+    height: 15px;
+}
+.container .text .left h1{
+    width: 100%;
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 28px;
+/* or 147% */
+
+
+color: #000000;
+}
+.container .text .left .man{
+    display: flex;
+    padding-top: 30px;
+    gap: 30px;
+}
+.container .text .left .man img{
+    width: 50px;
+    height: 50px;
+}
+.container .text .right{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+}
+.container .text .right .topp h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 54px;
+/* or 112% */
+
+
+color: #000000;
+
+
+}
+.container .text .right .bottomm{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    display: flex;
+    gap: 200px;
+}
+.container .text .right .bottomm .pic1 img{
+    width: 70px;
+    height: 50px;
+}
+.container .text .right .bottomm .pic1 h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 31px;
+/* identical to box height, or 147% */
+
+
+color: #000000;
+
+}
+.container .text .right .bottomm .pic2 img{
+    width: 70px;
+    height: 50px;
+}
+.container .text .right .bottomm .pic2 h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 31px;
+/* identical to box height, or 147% */
+
+
+color: #000000;
+
+}
+.container .text .right .bottomm .pic3 img{
+    width: 70px;
+    height: 50px;
+}
+.container .text .right .bottomm .pic3 h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 31px;
+/* identical to box height, or 147% */
+
+
+color: #000000;
+
+}
+.container .text .right .low img{
+    width: 100%;
+    height: 40px;
+}
+.container .body2{
+    width: 90%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: grid;
+    margin-left: 5%;
+}
+.container .body2 .part1 .main{
+    width: 500px;
+    height: 20vh;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 900px 900px;
+    gap: 110px;
+}
+.container .body2 .part1 .main div{
+    background-color: #ffffff;
+}
+.container .body2 .part1 .txt img{
+    width: 900px;
+    height: 5vh;
+}
+.container .body2 .part1 .txt h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 66px;
+/* or 110% */
+padding-bottom: 100px;
+
+
+color: #000000;
+
+}
+.container .body2 .part1 .main .box1 img{
+    width: 100%;
+    height: 90%;
+}
+.container .body2 .main .box2 img{
+    width: 100%;
+    height: 100%;
+}
+.container .part2{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 35%;
+}
+.container .part2 .pic{
+    width: 60%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding-left: 40%;
+}
+.container .part2 .pic img{
+    width: 650px;
+    height: 700px;
+}
+.container .part3{
+    gap: 30px;
+    display: flex;
+}
+.container .part3 img{
+    margin-left: 7%;
+    margin-top: 600px;
+    width: 550px;
+    height: 800px;
+}
+.container .bold{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    margin-top: 20vh;
+    /* display: flex; */
+    gap: 150px;
+}
+.container .bold .mon{
+    width: 100%;
+    height: 50vh;
+    background-color: #1e0269;
+    margin-top: 10%;
+    padding-top: 60px;
+    display: flex;
+    gap: 150px;
+}
+.container .bold .mon .first{
+    width: 300px;
+    height: 300px;
+    background-color: #1e0269;
+    margin-left: 5%;
+    /* padding-top: 30px; */
+
+}
+.container .bold .mon .first .port1{
+    display: flex;
+}
+.container .bold .mon .first .port1 img{
+    width: 80px;
+    height: 20px;
+    padding-top: 5px;
+
+}
+.container .bold .mon .first .port1 p{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.container .bold .mon .first h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 54px;
+/* or 112% */
+padding-top: 30px;
+
+color: #FFFFFF;
+}
+.container .bold .mon .second{
+    width: 300px;
+    height: 300px;
+    background-color: #1e0269;
+}
+.container .bold .mon .second img{
+    width: 50px;
+    height: 50px;
+}
+.container .bold .mon .second h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 124% */
+padding-top: 20px;
+
+color: #FFFFFF;
+
+}
+.container .bold .mon .second p{
+    padding-top: 20px;
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+
+
+color: #FFFFFF;
+}
+.container .bold .mon .third{
+    width: 300px;
+    height: 300px;
+    background-color: #1e0269;
+}
+.container .bold .mon .third img{
+    width: 50px;
+    height: 50px;
+}
+.container .bold .mon .third h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 124% */
+padding-top: 20px;
+
+color: #FFFFFF;
+
+}
+.container .bold .mon .third p{
+    padding-top: 20px;
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+
+
+color: #FFFFFF;
+}
+.container .bold .past{
+    width: 100%;
+    height: 50vh;
+    background-color: #1e0269;
+    display: flex;
+    gap: 70px;
+}
+.container .bold .past .bir{
+    width: 20%;
+    height: 30vh;
+    background-color: #1e0269;
+    margin-left: 10%;
+}
+.container .bold .past .bir img{
+    width: 50px;
+    height: 50px;
+}
+.container .bold .past .bir h1{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 124% */
+    padding-top: 20px;
+    
+    color: #FFFFFF;
+}
+.container .bold .past .bir p{
+    padding-top: 20px;
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+
+
+color: #FFFFFF;
+}
+.container .bold .past .ikki{
+    width: 20%;
+    height: 30vh;
+    background-color: #1e0269;
+}
+.container .bold .past .ikki img{
+    width: 50px;
+    height: 50px;
+}
+.container .bold .past .ikki h1{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 124% */
+    padding-top: 20px;
+    
+    color: #FFFFFF;
+}
+.container .bold .past .ikki p{
+    padding-top: 20px;
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+
+
+color: #FFFFFF;
+}
+.container .bold .past .uch{
+    width: 400px;
+    height: 30vh;
+    background-color: #1e0269;
+    
+}
+.container .bold .past .uch input{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 140% */
+
+text-align: center;
+
+color: #000000;
+margin-left: 150px;
+margin-top: 40px;
+
+}
+.container .bold .past .uch img{
+    width: 200px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.container .wet{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(191, 200, 252);
+}
+.container .wet .birr{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(191, 200, 252);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.container .wet .birr img{
+    width: 20%;
+    height: 3vh;
+}
+.container .wet .ikkii{
+    margin-top: 10px;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(191, 200, 252);
+}
+.container .wet .ikkii h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 66px;
+/* or 110% */
+
+text-align: center;
+
+color: #000000;
+}
+.container .wet .uchh{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    gap: 150px;
+    margin-top: 100px;
+    margin-left: 12%;
+}
+.container .wet .uchh img{
+    width: 50%;
+    height: 85%;
+    border-radius: 20px;
+}
+.container .wet .tort{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(191, 200, 252);
+    text-align: center;
+}
+.container .wet .tort img{
+    width: 50px;
+}
+.container .pro{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+
+}
+.container .pro .ft{
+    width: 90%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    margin-left: 4%;
+}
+.container .pro .ft img{
+    width: 100%;
+    height: 30px;
+}
+.container .pro .nd{
+    width: 90%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 4%;
+    gap: 40%;
+}
+.container .pro .nd h1{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 64px;
+/* or 106% */
+
+letter-spacing: 1.2px;
+
+color: #000000;
+
+}
+.container .pro .nd p{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+color: #000000;
+}
+.container .pro .rd{
+    width: 90%;
+    height: 60%;
+    background-color: #ffffff;
+    display: flex;
+    margin-left: 4%;
+    gap: 70px;
+}
+.container .pro .rd img{
+    width: 30%;
+    height: 65%;
+}
+.container .shop{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+.container .shop .task1{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+}
+.container .shop .task1 img{
+    width: 15%;
+    height: 20px;
+    margin-left: 42%;
+}
+.container .shop .task1 h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 53px;
+/* identical to box height, or 110% */
+
+text-align: center;
+padding-top: 10px;
+color: #000000;
+}
+.container .shop .task2{
+    width: 90%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 70px;
+    margin-left: 5%;
+}
+.container .shop .task2 img{
+    width: 30%;
+    height: 100%;
+
+}
+.container .shop .task3{
+    width: 100%;
+    height: 10%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.container .shop .task3 img{
+    width: 200px;
+    height: 60%;
+    border-bottom: 2px solid gray;
+}
+.container .blog{
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+.container .blog .main{
+    width: 95%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 2.5%;
+}
+.container .blog .main .pic1{
+    width: 100%;
+    height: 2.5%;
+    background-color: rgb(255, 255, 255);
+}
+.container .blog .main .pic1 img{
+    width: 15%;
+    height: 80%;
+}
+.container .blog .main .pic2{
+    width: 100%;
+    height: 12%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 660px;
+}
+.container .blog .main .pic2 h1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    /* or 114% */
+    
+    letter-spacing: 1.2px;
+    
+    color: #000000;
+    
+}
+.container .blog .main .pic2 img{
+    width: 15%;
+    height: 50%;
+}
+.container .blog .main .pic3{
+    width: 100%;
+    height: 26%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 70px;
+}
+.container .blog .main .pic3 img{
+    width: 100%;
+    height: 100%;
+}
+.container .blog .main .pic4{
+    width: 100%;
+    height: 26%;
+    background-color: rgb(255, 255, 255);
+}
+.container .blog .main .pic4 img{
+    width: 100%;
+    height: 100%;
+}
+.container .blog .main .pic5{
+    width: 100%;
+    height: 26%;
+    background-color: rgb(255, 255, 255);
+}
+.container .blog .main .pic5 img{
+    width: 100%;
+    height: 100%;
+}
+.container .footer{
+    width: 100%;
+    height: 170vh;
+    background-color: rgb(15, 2, 65);
+
+}
+.container .footer .man1{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(15, 2, 65);
+}
+.container .footer .man1 .par1{
+    width: 100%;
+    height: 100%;
+}
+.container .footer .man1 .par1 img{
+    width: 100%;
+    height: 100%;
+}
+.container .footer .man2{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(15, 2, 65);
+}
+.container .footer .man2 .par2{
+    width: 50%;
+    height: 5%;
+    background-color: rgb(15, 2, 65);
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.container .footer .man2 .par2 img{
+    width: 1000px;
+    height: 27px;
+}
+.container .footer .man2 .par3{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(15, 2, 65);
+
+}
+.container .footer .man2 .par3 h1{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 66px;
+/* identical to box height, or 110% */
+text-align: center;
+margin-top: 50px;
+color: #FFFFFF;
+}
+.container .footer .man2 .par4{
+    width: 90%;
+    height: 45%;
+    background-color: rgb(15, 2, 65);
+    margin-left: 5%;
+    margin-top: 100px;
+}
+.container .footer .man2 .par4 img{
+    width: 100%;
+    height: 90%;
+}
+.container .footer .man2 .par5{
+    width: 90%;
+    height: 10%;
+    background-color: rgb(15, 2, 65);
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.container .footer .man2 .par5 img{
+    width: 100%;
+    height: 70%;
+}
