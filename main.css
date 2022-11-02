@@ -8,117 +8,117 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-color: #1e0269;
+    background-color: #229aef;
     /* display: flex;
     justify-content: center; */
 }
-.container .top{
-    background-color: #ffffff;
+
+.container .navbar{
     display: flex;
-    justify-content: center;
-    width: 90%;
-    height: 10vh;
-    margin-left: 5%;
-}
-.container .navbar .top{
-    display: flex;
-    background-color: #1e0269;
-    gap: 300px;
-    justify-content: center;
-    align-items: center;
-}
-.container .navbar .top .left{
-    position: relative;
-    align-items: center;
-    display: flex;
-    gap: 20px;
-}
-.container .navbar .top .left h1{
-    color: #FFFFFF;
-}
-.container .navbar .top .left img{
-    width: 40px;
-    height: 40px;
+    background-color: #229aef;
+    /* gap: 300px; */
+    /* justify-content: center; */
     /* align-items: center; */
-    /* position: absolute; */
-}
-.container .navbar .top .left .spot{
-position: absolute;
-top: 20px;
-/* bottom: 0; */
-/* right: 10px; */
-left: 20px;
-width: 25px;
-height: 25px;
-}
-.container .navbar .top .center{
-    display: flex;
-    justify-content: center;
-    width: 600px;
+    width: 100%;
     height: 10vh;
-    background-color: #1e0269;
-    gap: 40px;
+}
+.container .navbar .left{
+    position: relative;
+    /* align-items: center; */
+    /* display: flex; */
+    gap: 20px;
+    width: 300px;
+    height: 10vh;
+    background-color: #229aef;
+}
+.container .navbar .left img{
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    top: -15px;
+    right: 40px;
+}
+.container .navbar .center{
+    display: flex;
+    width: 850px;
+    height: 10vh;
+    background-color: #229aef;
+    gap: 100px;
     align-items: center;
 }
-.container .navbar .top .center h1{
-    font-family: 'Epilogue';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 19px;
-padding-top: 10px;
+.container .navbar .center h1{
+    font-family: 'Philosopher', sans-serif;
+    font-style: bold;
+font-weight: 400px;
+font-size: 25px;
 color: #FFFFFF;
 cursor: pointer;
 
 }
-.container .navbar .top .right{
+.container .navbar .right{
+    width: 400px;
+    height: 10vh;
+    background-color: #229aef;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 80px;
+    justify-content: center;
 }
-.container .navbar .top .right h1{
-    font-family: 'Epilogue';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+.container .navbar .right h1{
+    font-family: 'Philosopher', sans-serif;
+font-style: bold;
+font-weight: 400px;
+font-size: 25px;
+/* line-height: 19px; */
 color: #FFFFFF;
 }
-.container .navbar .top .right img{
+.container .navbar .right img{
     width: 30px;
     height: 40px;
 }
 .container .body{
-    width: 50%;
+    width: 100%;
     height: 90vh;
-    background-color: #1e0269;
-    margin-left: 90px;
+    background-color: transparent;
+    /* margin-left: 90px; */
     display: flex;
     gap: 150px;
+    position: relative;
 
 }
 .container .body .left{
     width: 100%;
     height: 90vh;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    background-color: transparent;
+    position: relative;
      
 }
 .container .body .left .big{
+    width: 100%;
+    height: 47%;
+    background-color: #229aef;
+    position: relative;
+    position: absolute;
+    top: 20px;
+    left: 0px;
 }
 .container .body .left .big h1{
-
-    font-family: 'Epilogue';
+    font-family: 'Philosopher', sans-serif;
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 font-size: 72px;
 line-height: 76px;
-/* or 105% */
-
-
 color: #FFFFFF;
+position: absolute;
+top: 50px;
+left: 60px;
 }
 .container .body .left .big p{
-    font-family: 'Epilogue';
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    font-family: 'Philosopher', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 22px;
@@ -131,20 +131,26 @@ color: #FFFFFF;
 
 }
 .container .body .left .can{
-    width: 150px;
-    height: 70px;
+    width: 40%;
+    height: 13%;
     border-radius: 40px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 420px;
+    left: 55px;
 }
-.container .body .left .can h1{
-    font-family: 'Epilogue';
+.container .body .left .can a{
+    width: 50%;
+    height: 30px;
+    background-color: transparent;
+    font-family: 'Philosopher', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 9px;
 line-height: 25px;
 /* identical to box height, or 140% */
 
@@ -159,12 +165,14 @@ right: 20.1%;
 top: calc(50% - 24px/2);
 }
 .container .body .left .sun{
-    margin-top: 70px;
     display: flex;
     width: 600px;
     height: 60px;
-    background-color: #1e0269;
+    background-color: #229aef;
     gap: 20px;
+    position: absolute;
+    top: 550px;
+    left: 60px;
 }
 .container .body .left .sun img{
     height: 64px;
@@ -205,60 +213,122 @@ top: calc(50% - 24px/2);
     width: 100%;
     height: 100vh;
     background-color: rgb(255, 255, 255);
-    margin-top: 200px;
+    /* margin-top: 200px; */
     display: flex;
     justify-content: center;
     gap: 100px;
 }
 .container .text .left{
-    width: 25%;
+    width: 100%;
     height: 90vh;
     background-color: rgb(255, 255, 255);
     /* display: flex; */
     /* justify-content: center; */
-    margin-left: 5%;
+    /* margin-left: 5%; */
+}
+.container .text .left .about{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
 .container .text .left .about img{
     /* padding-top: 200px; */
-    width: 70px;
-    height: 15px;
+    width: 100px;
+    height: 100px;
 }
-.container .text .left .star{
-    padding-top: 150px;
-    width: 70%;
-   
+.container .text .left .about h1{
+    font-family:'Philosopher', sans-serif;
+    font-weight: 400px;
+    font-size: 45px;
+    color: #000000;
 }
-.container .text .left .star img{
-    width: 20px;
-    height: 15px;
-}
-.container .text .left h1{
+.container .text .left .about2{
     width: 100%;
-    font-family: 'Epilogue';
-font-style: normal;
-font-weight: 400;
-font-size: 19px;
-line-height: 28px;
-/* or 147% */
-
-
+    height: 25%;
+    background-color: white;
+    align-items: center;
+    display: flex;
+}
+.container .text .left .about2 img{
+    width: 400px;
+    height: 160px;
+    border-radius: 20px;
+}
+.container .text .left .about2 a{
+    width: 50%;
+    padding-left: 70px;
+    font-family: 'Philosopher', sans-serif;
+    font-style: normal;
+font-weight: 400px;
+font-size: 29px;
 color: #000000;
 }
 .container .text .left .man{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
     display: flex;
-    padding-top: 30px;
-    gap: 30px;
+}
+.container .text .left .man a{
+    width: 50%;
+    padding-left: 75px;
+    font-family: 'Philosopher', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+font-weight: 500px;
+font-size: 72px;
+color: #000000;
 }
 .container .text .left .man img{
-    width: 50px;
-    height: 50px;
+    width: 400px;
+    height: 160px;
+    border-radius: 20px;
+}
+.container .text .left .man2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 0px;
+    align-items: center;
+}
+.container .text .left .man2 img{
+    width: 54%;
+    height: 100%;
+    border-radius: 20px;
+}
+.container .text .left .man2 a{
+    width: 50%;
+    padding-left: 75px;
+    font-family: 'Philosopher', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+font-weight: 500px;
+font-size: 35px;
+color: #000000; 
 }
 .container .text .right{
     background-color: rgb(255, 255, 255);
-    width: 60%;
+    width: 100%;
+    height: 100vh;
 }
-.container .text .right .topp h1{
-    font-family: 'Epilogue';
+.container .text .right .topp{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.container .text .right .topp img{
+    width: 200px;
+    height: 150px;
+}
+.container .text .right .topp a{
+    font-family: 'Philosopher', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 48px;
@@ -274,97 +344,124 @@ color: #000000;
     width: 100%;
     height: 20vh;
     background-color: rgb(255, 255, 255);
-    margin-top: 100px;
     display: flex;
-    gap: 200px;
+    /* gap: 200px; */
+}
+.container .text .right .bottomm .pic1{
+    width: 33%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    gap: 20px;
 }
 .container .text .right .bottomm .pic1 img{
-    width: 70px;
+    width: 60px;
     height: 50px;
 }
 .container .text .right .bottomm .pic1 h1{
-    font-family: 'Epilogue';
+    font-family: 'Philosopher', sans-serif;
 font-style: normal;
-font-weight: 400;
-font-size: 21px;
-line-height: 31px;
-/* identical to box height, or 147% */
-
-
+font-weight: 400px;
+font-size: 31px;
+line-height: 51px;
 color: #000000;
+
+}
+.container .text .right .bottomm .pic2{
+    width: 33%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    gap: 20px;
 
 }
 .container .text .right .bottomm .pic2 img{
-    width: 70px;
+    width: 60px;
     height: 50px;
 }
 .container .text .right .bottomm .pic2 h1{
-    font-family: 'Epilogue';
+    font-family: 'Philosopher', sans-serif;
 font-style: normal;
-font-weight: 400;
-font-size: 21px;
-line-height: 31px;
+font-weight: 400px;
+font-size: 35px;
+line-height: 51px;
 /* identical to box height, or 147% */
 
 
 color: #000000;
 
+}
+.container .text .right .bottomm .pic3{
+    width: 33%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 20px;
 }
 .container .text .right .bottomm .pic3 img{
-    width: 70px;
-    height: 50px;
+    width: 60px;
+    height: 40px;
 }
 .container .text .right .bottomm .pic3 h1{
-    font-family: 'Epilogue';
+    font-family: 'Philosopher', sans-serif;
 font-style: normal;
-font-weight: 400;
-font-size: 21px;
-line-height: 31px;
+font-weight: 400px;
+font-size: 31px;
+line-height: 51px;
 /* identical to box height, or 147% */
 
 
 color: #000000;
 
+}
+.container .text .right .low {
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
 }
 .container .text .right .low img{
     width: 100%;
-    height: 40px;
+    height: 100%;
 }
 .container .body2{
-    width: 90%;
+    width: 100%;
     height: 100vh;
-    background-color: #ffffff;
-    display: grid;
-    margin-left: 5%;
+    background-color: #6c0707;
 }
-.container .body2 .part1 .main{
-    width: 500px;
-    height: 20vh;
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: 600px 600px;
-    grid-template-rows: 900px 900px;
-    gap: 110px;
+.container .body2 .part1{
+    width: 100%;
+    height: 40%;
 }
-.container .body2 .part1 .main div{
-    background-color: #ffffff;
+.container .body2 .part1 .txt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    background-color: #229aef;
 }
 .container .body2 .part1 .txt img{
-    width: 900px;
-    height: 5vh;
+    width: 400px;
+    height: 25vh;
 }
 .container .body2 .part1 .txt h1{
-    font-family: 'Epilogue';
+    font-family: 'Oleo Script', cursive;
 font-style: normal;
 font-weight: 400;
 font-size: 60px;
 line-height: 66px;
 /* or 110% */
 padding-bottom: 100px;
-
-
-color: #000000;
-
+color: white;
+}
+.container .body2 .part1 .main{
+    width: 500px;
+    height: 20vh;
+    background-color: #ffffff;
+    gap: 110px;
+}
+.container .body2 .part1 .main div{
+    background-color: #47409f;
 }
 .container .body2 .part1 .main .box1 img{
     width: 100%;
