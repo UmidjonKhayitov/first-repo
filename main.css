@@ -438,7 +438,7 @@ color: #000000;
     display: flex;
     gap: 300px;
     align-items: center;
-    background-color: #229aef;
+    background-color: red;
 }
 .container .body2 .part1 .txt img{
     width: 400px;
