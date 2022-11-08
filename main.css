@@ -50,10 +50,59 @@
     font-family: 'Philosopher', sans-serif;
     font-style: bold;
 font-weight: 400px;
-font-size: 25px;
+font-size: 20px;
 color: #FFFFFF;
 cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 1s all;
 
+}
+.container .navbar .center .one:hover{
+    width: 70px;
+    height: 30px;
+    transform: scale(2);
+    background-color: white;
+    color: #229aef;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.container .navbar .center .two:hover{
+    width: 70px;
+    height: 30px;
+    transform: scale(2);
+    background-color: white;
+    color: #229aef;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.container .navbar .center .three:hover{
+    width: 70px;
+    height: 30px;
+    transform: scale(2);
+    background-color: white;
+    color: #229aef;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.container .navbar .center .four:hover{
+    width: 70px;
+    height: 30px;
+    transform: scale(2);
+    background-color: white;
+    color: #229aef;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.container .navbar .center .five:hover{
+    width: 70px;
+    height: 30px;
+    transform: scale(2);
+    background-color: white;
+    color: #229aef;
+    border-radius: 20px;
+    font-size: 15px;
 }
 .container .navbar .right{
     width: 400px;
@@ -142,6 +191,11 @@ color: #FFFFFF;
     position: absolute;
     top: 420px;
     left: 55px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.container .body .left .can:hover{
+    transform: translate(45px);
 }
 .container .body .left .can a{
     width: 50%;
@@ -234,6 +288,10 @@ top: calc(50% - 24px/2);
     background-color: white;
     display: flex;
     align-items: center;
+    transition: 1s all;
+}
+.container .text .left .about:hover{
+    transform: scale(.8);
 }
 .container .text .left .about img{
     /* padding-top: 200px; */
@@ -252,6 +310,10 @@ top: calc(50% - 24px/2);
     background-color: white;
     align-items: center;
     display: flex;
+    transition: 1s all;
+}
+.container .text .left .about2:hover{
+    transform: scale(.8);
 }
 .container .text .left .about2 img{
     width: 400px;
@@ -273,6 +335,10 @@ color: #000000;
     background-color: rgb(255, 255, 255);
     align-items: center;
     display: flex;
+    transition: 1s all;
+}
+.container .text .left .man:hover{
+    transform: scale(.8);
 }
 .container .text .left .man a{
     width: 50%;
@@ -295,9 +361,13 @@ color: #000000;
     display: flex;
     gap: 0px;
     align-items: center;
+    transition: 1s all;
+}
+.container .text .left .man2:hover{
+    transform: scale(.8);
 }
 .container .text .left .man2 img{
-    width: 54%;
+    width: 58%;
     height: 100%;
     border-radius: 20px;
 }
@@ -322,6 +392,10 @@ color: #000000;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
+    transition: 1s all;
+}
+.container .text .right .topp:hover{
+    transform: scale(.8);
 }
 .container .text .right .topp img{
     width: 200px;
@@ -422,6 +496,10 @@ color: #000000;
 .container .text .right .low img{
     width: 100%;
     height: 100%;
+    transition: 1s all;
+}
+.container .text .right .low:hover img{
+    transform: scale(.8);
 }
 .container .body2{
     width: 100%;
@@ -430,7 +508,7 @@ color: #000000;
 }
 .container .body2 .part1{
     width: 100%;
-    height: 40%;
+    height: 50%;
 }
 .container .body2 .part1 .txt{
     width: 100%;
@@ -438,8 +516,9 @@ color: #000000;
     display: flex;
     gap: 300px;
     align-items: center;
-    background-color: red;
+    background-color: #229aef;
 }
+
 .container .body2 .part1 .txt img{
     width: 400px;
     height: 25vh;
@@ -453,74 +532,188 @@ line-height: 66px;
 /* or 110% */
 padding-bottom: 100px;
 color: white;
+transition: 1s all;
+cursor: pointer;
 }
-.container .body2 .part1 .main{
-    width: 500px;
-    height: 20vh;
-    background-color: #ffffff;
-    gap: 110px;
+.container .body2 .part1 .txt:hover h1{
+    transform: scale(1.1);
 }
-.container .body2 .part1 .main div{
-    background-color: #47409f;
+.container .body2 .part1{
+   width: 100%;
+   height: 30%;
+   background-color: aqua;
 }
-.container .body2 .part1 .main .box1 img{
-    width: 100%;
-    height: 90%;
-}
-.container .body2 .main .box2 img{
+.container .body2 .part2{
     width: 100%;
     height: 100%;
+    background-color: rgb(222, 86, 86);
 }
-.container .part2{
+.container .body2 .part2 .pic{
     width: 100%;
-    height: 40%;
-    background-color: rgb(255, 255, 255);
-    margin-top: 35%;
-}
-.container .part2 .pic{
-    width: 60%;
     height: 100vh;
-    background-color: rgb(255, 255, 255);
-    padding-left: 40%;
+    display: flex;
+    align-items: start;
+    gap: 200px;
+    background-color: #229aef;
 }
-.container .part2 .pic img{
-    width: 650px;
-    height: 700px;
+.container .body2 .part2 .pic a{
+    font-family: 'Oleo Script', cursive;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 66px;
+    color: white;
+    cursor: pointer;
+    transition: 1s all;
+}
+.container .body2 .part2 .pic:hover a{
+    transform: scale(1.1);
+}
+.container .body2 .part2 .pic img{
+    width: 40%;
+    height: 60%;
+    border-radius: 50px;
+    border-color: transparent;
+
 }
 .container .part3{
-    gap: 30px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 100vh;
+    background-color: #229aef;
 }
 .container .part3 img{
-    margin-left: 7%;
-    margin-top: 600px;
-    width: 550px;
-    height: 800px;
+    width: 40%;
+    height: 60%;
+    border-radius: 50px;
+}
+.container .part3 a{
+    font-family: 'Oleo Script', cursive;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 66px;
+    color: white;
+    transition: 1s all;
+    cursor: pointer;
+}
+.container .part3:hover a{
+    transform: scale(1.1);
+}
+.container .part4{
+    width: 100%;
+    height: 40vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+}
+.container .part4 img{
+    width: 20%;
+    height: 90%;
+}
+.container .part4 h1{
+    font-family: 'Oleo Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 66px;
+    color: black;
+    transition: 1s all;
+}
+.container .part4:hover h1{
+    transform: rotateY(30deg);
+}
+.container .uzb{
+    width: 100%;
+    height: 100vh;
+    background-color: #229aef;
+}
+.container .uzb .bosh{
+    width: 100%;
+    height: 20%;
+    background-color: #229aef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .uzb .bosh h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.container .uzb .sam{
+    width: 100%;
+    height: 40%;
+    background-color: #229aef;
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container .uzb .sam img{
+    width: 30%;
+    height: 100%;
+    border-radius: 30px;
+}
+.container .uzb .sam h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    transition: 1s all;
+}
+.container .uzb .sam:hover h1{
+    transform: rotateY(25deg);
+}
+.container .uzb .xora{
+    width: 100%;
+    height: 40%;
+    background-color: #229aef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+}
+.container .uzb .xora img{
+    width: 30%;
+    height: 100%;
+    border-radius: 30px;
+}
+.container .uzb .xora h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.container .uzb .xora:hover h1{
+    transform: rotateY(25deg);
 }
 .container .bold{
     width: 100%;
     height: 100vh;
-    background-color: aqua;
-    margin-top: 20vh;
+    background-color: rgb(210, 200, 19);
     /* display: flex; */
     gap: 150px;
 }
 .container .bold .mon{
     width: 100%;
-    height: 50vh;
-    background-color: #1e0269;
-    margin-top: 10%;
+    height: 50%;
+    background-color: transparent;
     padding-top: 60px;
     display: flex;
-    gap: 150px;
+    gap: 0px;
+    align-items: center;
+    justify-content: space-around;
 }
 .container .bold .mon .first{
     width: 300px;
     height: 300px;
-    background-color: #1e0269;
-    margin-left: 5%;
-    /* padding-top: 30px; */
-
+    background-color: transparent;
 }
 .container .bold .mon .first .port1{
     display: flex;
@@ -532,9 +725,9 @@ color: white;
 
 }
 .container .bold .mon .first .port1 p{
-    font-family: 'Epilogue';
+    font-family: 'Poor Story', cursive;
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 font-size: 16px;
 line-height: 24px;
 /* identical to box height, or 150% */
@@ -545,30 +738,29 @@ color: #FFFFFF;
 
 }
 .container .bold .mon .first h1{
-    font-family: 'Epilogue';
+    font-family: 'Poor Story', cursive;
 font-style: normal;
-font-weight: 400;
-font-size: 48px;
+font-weight: 400px;
+font-size: 38px;
 line-height: 54px;
-/* or 112% */
 padding-top: 30px;
 
 color: #FFFFFF;
 }
 .container .bold .mon .second{
-    width: 300px;
+    width: 500px;
     height: 300px;
-    background-color: #1e0269;
+    background-color: transparent;
 }
 .container .bold .mon .second img{
     width: 50px;
     height: 50px;
 }
 .container .bold .mon .second h1{
-    font-family: 'Epilogue';
+    font-family: 'Poor Story', cursive;
 font-style: normal;
-font-weight: 400;
-font-size: 24px;
+font-weight: 400px;
+font-size: 20px;
 line-height: 30px;
 /* identical to box height, or 124% */
 padding-top: 20px;
@@ -580,7 +772,7 @@ color: #FFFFFF;
     padding-top: 20px;
     font-family: 'Epilogue';
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 font-size: 18px;
 line-height: 28px;
 /* or 155% */
@@ -589,9 +781,9 @@ line-height: 28px;
 color: #FFFFFF;
 }
 .container .bold .mon .third{
-    width: 300px;
+    width: 500px;
     height: 300px;
-    background-color: #1e0269;
+    background-color: transparent;
 }
 .container .bold .mon .third img{
     width: 50px;
